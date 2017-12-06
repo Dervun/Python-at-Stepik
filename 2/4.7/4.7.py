@@ -5,7 +5,7 @@ s = 'aaaabbсaa' преобразуется в 'a4b2с1a2',
 и количество его повторений в этой позиции строки.
 """
 # My decision:
-originalText = input() + '$' # End of string indicated by '$'
+originalText = input() + '$'  # End of string indicated by '$'
 currentQuantity = 0
 currentSymbol = originalText[0]
 for c in originalText:
